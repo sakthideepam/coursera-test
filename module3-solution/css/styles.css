@@ -1,0 +1,73 @@
+/* Our Menu */
+h1 {
+  font-size: 3em;
+  color: maroon;
+}
+
+/* Navbar color and border  */
+#app-navbar {
+  background-color: rgba(24, 177, 113, 0.596);
+  border-bottom: darkgreen 2px solid;
+  border-top: darkgreen 2px solid;
+  border-radius: 0;
+}
+
+/* Navbar brand name */
+#app-navbar .navbar-brand {
+  color: maroon;
+  font-size: 1.8em;
+}
+
+/* Nabar menu expanded*/
+#app-navbar .navbar-nav > li {
+  background-color: rgba(28, 119, 81, 0.596);
+}
+
+/* Nabar menu option items */
+#app-navbar .navbar-nav > li > a {
+  color: maroon;
+}
+
+/* Nabar menu options */
+#app-navbar .navbar-nav > :not(:last-child) {
+  border-bottom: rgba(153, 230, 198, 0.596) 3px solid;
+}
+
+/* The grid container (tall section) */
+#grid-container {
+  background-color: rgb(114, 220, 255);
+  border: rgb(75, 151, 177) 2px solid;
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Rest of the content below the navbar */
+#content {
+  margin: 15px;
+}
+
+/* Each menu item */
+.section-container {
+  /* height: 300px; */
+  margin-top: 20px;
+}
+
+/* Each menu name */
+.section-title {
+  font-size: 1.8em;
+  color: rgb(114, 220, 255);
+  margin-bottom: 10px;
+  background-color: blueviolet;
+  border: rgb(96, 26, 161) 2px solid;
+  border-radius: 5px;
+}
+
+/* Each menu details */
+.section-details {
+  font-size: 1.2em;
+}
+
+/* The last menu item */
+#grid-container .row .col-xs-12 :nth-child(3) {
+  padding-bottom: 20px;
+}
